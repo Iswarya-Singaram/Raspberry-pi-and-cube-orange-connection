@@ -61,7 +61,7 @@ PyMavlink 2.4.8
 MAVproxy can be accessed via the following command
 
 ```
-mavproxy.py --master=/dev/ttyAMA0 --baudrate=931600
+mavproxy.py --master=/dev/ttyAMA0 --baudrate=921600
 ```
 
 Note: Adjust the baurate according to your requirements
