@@ -69,8 +69,17 @@ Note: Adjust the baurate according to your requirements
 ### 7. To check for heartbeat run the following code
 
 ```
+from pymavlink import mavutil
+
+master = mavutil.mavlink_connection('/dev/ttyAMA0',baud=57600)
+
+print("waiting for heartbeat...")
+
+master.wait_heartbeat()
+print(f"{master.target_system}")
 
 ```
+Note: If you cannot receive the heartbeat. Adjust the baudrate to 9600,57600,115200, 921600..etc.. until we know in which baudrate pi and FC are communicating.
 
 
 
