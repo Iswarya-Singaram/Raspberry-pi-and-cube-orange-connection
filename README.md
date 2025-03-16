@@ -42,7 +42,7 @@ Save and exit, then reboot:
 ```bash
 sudo reboot
 ```
-To check if the blutooth has been disabled try'
+To check if the blutooth has been disabled and the UART is free try,
 ~~~
 ls /dev/ttyAMA0
 ~~~
