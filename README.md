@@ -42,6 +42,10 @@ Save and exit, then reboot:
 ```bash
 sudo reboot
 ```
+To check if the blutooth has been disabled try'
+~~~
+ls /dev/ttyAMA0
+~~~
 
 ### 4. Set Up Python Environment
 Install Python 3.8 and create a virtual environment:
