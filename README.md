@@ -3,7 +3,7 @@
 
 ## Raspberry Pi to Cube FC UART Setup
 
-This repository provides scripts and instructions to configure a Raspberry Pi to communicate with Cube Orange/Black flight controllers via UART.
+This repository provides scripts and instructions to configure a Raspberry Pi 3,4,5 models to communicate with Cube Orange/Black flight controllers via UART.
 
 ## Setup Steps
 
