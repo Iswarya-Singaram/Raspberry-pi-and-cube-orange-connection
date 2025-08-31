@@ -70,6 +70,9 @@ mavproxy.py --master=/dev/ttyAMA0 --baudrate=921600
 
 Note: Adjust the baurate according to your requirements
 
+<img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/6891d905-43c7-4d57-998c-1393e663c8a9" />
+
+
 ### 7. To check for heartbeat run the following code
 
 ```
